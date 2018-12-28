@@ -1,0 +1,114 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Secret Santa</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+		
+<style>
+#spinnerImg 
+{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    filter: alpha(opacity=50);
+    z-index: 9999;
+    background: url(assets/images/ajax-loader.gif) 50% 50% no-repeat rgb(249, 249, 249);
+}
+
+#spinnerLogo 
+{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    filter: alpha(opacity=100);
+    z-index: 9999;
+    background: url(Images/ajax-loader.ico) 50% 50%  no-repeat;
+}
+
+
+.col-xl-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    max-width: 25%;
+}
+</style>
+    </head>
+    <body>
+	 <div style="display: block;" id="spinner">
+        <div id="spinnerImg"></div>
+        <div id="spinnerLogo"></div>
+    </div>
+	<nav class="navbar navbar-default navbar-doublerow navbar-trans navbar-fixed-top">
+  <!-- top nav -->
+  <nav class="navbar navbar-top hidden-xs">
+    <div class="container">
+      <!-- left nav top -->
+      <!-- right nav top -->
+
+    </div>
+  
+  </nav>
+  <!-- down nav -->
+  <nav class="navbar navbar-down">
+    <div class="header-container-fluid">
+      <div class="flex-container">  
+        <ul class="nav navbar-nav flex-item hidden-xs">
+          <li><a href="#Santa">                                 Click here for your secret santa</a></li>
+        </ul>
+        </div>  
+      </div>
+    </nav>
+  </nav> 
+	<div><img src="assets/images/christmas.jpg" alt=""  style="padding-left:330px; padding-top:180px;"/>
+</div>
+<br><br>	
+<div id="Santa" class="about">
+        <div class="line"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <h2>Hi Hima Durga</h2>
+					<h2>Below are the hints for your secret santa</h2>
+                    <p>Phasellus a nulla id metus aliquam vestibulum. Praesent blandit mi in ligula porttitor porttitor. Quisque consequat tellus risus, ac porta ex tincidunt sed. Maecenas bibendum, nulla eget fringilla pretium, massa risus imperdiet augue, nec malesuada augue elit venenatis metus. Donec ac tellus quis ante placerat rhoncus at quis arcu. Proin luctus dui vitae vehicula fringilla. Nam libero augue, convallis convallis metus vitae, pulvinar porttitor massa.<br>Phasellus a nulla id metus aliquam vestibulum. Praesent blandit mi in ligula porttitor porttitor. Quisque consequat tellus risus, ac porta ex tincidunt sed. Maecenas bibendum, nulla eget fringilla pretium, massa risus imperdiet augue, nec malesuada augue elit venenatis metus. Donec ac tellus quis ante placerat rhoncus at quis arcu. Proin luctus dui vitae vehicula fringilla. Nam libero augue, convallis convallis metus vitae, pulvinar porttitor massa.</p>
+                    
+                    <!-- <div class="text1"> -->
+                        <!-- <h3>Professional Hairdresser</h3> -->
+                    <!-- </div> -->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<img src="assets/images/Santa.jpg" alt="" style="width: 100%;"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="Santa">
+<div class="container" style="text-align:center">
+<h1>Santa ID: </h1>
+</div>
+<p></p>
+</div>
+
+</section>
+    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+<script src="assets/js/Navbar.js"></script>
+
+</body>
+</html>
+ <script type="text/javascript">
+        $(window).load(function () {
+            $("#spinner").fadeOut("slow");
+        })
+</script>
+
+</script>
